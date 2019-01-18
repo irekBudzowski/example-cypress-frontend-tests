@@ -1,0 +1,17 @@
+{
+  "name": "novatorium-cypress-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress run",
+    "cypress-chrome": "cypress run --browser chrome",
+    "cypress-open": "cypress open",
+    "dashboard": "cypress run --record --key here-project-key-number"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.4"
+  }
+}
